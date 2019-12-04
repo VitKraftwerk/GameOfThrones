@@ -1,8 +1,13 @@
 package ru.skillbranch.gameofthrones
 
+import android.util.Log
 import org.junit.Test
 
 import org.junit.Assert.*
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import ru.skillbranch.gameofthrones.data.remote.res.HouseRes
 
 /**
  * Example local unit test, which will execute on the development machine (host).

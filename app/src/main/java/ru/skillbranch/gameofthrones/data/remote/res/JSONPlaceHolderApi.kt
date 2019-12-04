@@ -6,10 +6,10 @@ import retrofit2.http.Path
 
 interface JSONPlaceHolderApi {
 
-    @GET("/houses/{id}")
+    @GET("/api/houses/{id}")
     fun getHouse(@Path("id") id: Int): Call<HouseRes>
 
-    @GET("/houses")
+    @GET("/api/houses")
     fun getHouses(): Call<List<HouseRes>>
 
 }
